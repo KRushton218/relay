@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: 'EB Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #F9FAFB;
+  color: #1C1C1E;
+  font-family: var(--font-sans);
+}
+
+.container {
+  width: 100vw;
+  border-right: 1px solid red; /* Or whatever side you were going for */
+}
